@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h2>{{ eddie }}</h2>
-    <ul><li v-for="list of listCounts">{{ list.name }}</li></ul>
+    <ul><li v-for="list of listCounts">{{ list.name }} - {{ list.cardCount}}</li></ul>
   </div>
 </template>
 
